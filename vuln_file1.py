@@ -1,7 +1,6 @@
 # vuln_file1.py
 import os
 import subprocess
-import pickle
 
 def insecure_command_injection(user_input):
     # Уязвимость: Command Injection
